@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import "_mixins";
+@import "mobile";
+@import "tablet";
+@import "desktop";
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.container {
+  max-width: 100%;
+  min-width: 360px;
+}
+
+.header {
+  background: url(../images/bg.png) center top no-repeat;
+  background-size: cover;
+  width: 100vw;
+
+  .overlay {
+    background-color: rgba(198, 108, 73, 0.3);
+    width: 100vw;
+    position: absolute;
+  }
+}
+
+[class*="col-"] {
+  width: 100%;
+  border: 1px solid #000;
+}
+
+@include generate-columns-tablet;
+@include generate-columns-desktop;

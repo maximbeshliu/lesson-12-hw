@@ -1,0 +1,153 @@
+@media (min-width: 1024px) {
+  .header {
+    height: 768px; }
+    .header .overlay {
+      height: 768px; }
+    .header img {
+      display: none;
+      position: relative;
+      right: 100px;
+      top: 30px; }
+    .header .header__logo {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 26px;
+      line-height: 29px; }
+    .header .header__wraper {
+      display: block;
+      color: #ffffff;
+      position: relative;
+      z-index: 2;
+      height: 768px;
+      padding: 5% 10%; }
+    .header .header__top {
+      display: flex;
+      justify-content: space-between; }
+    .header .header__menu {
+      display: flex;
+      justify-content: space-between;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 22px;
+      width: 40vw; }
+      .header .header__menu a:link {
+        color: #ffffff;
+        text-decoration: none; }
+      .header .header__menu a:visited {
+        color: #ffffff;
+        text-decoration: none; }
+    .header .header__info {
+      margin-top: 200px;
+      display: flex;
+      flex-flow: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      height: 300px;
+      text-align: left; }
+      .header .header__info .header__about {
+        display: flex;
+        flex-flow: column;
+        align-items: flex-start; }
+      .header .header__info .header_title {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 64px;
+        line-height: 78px; }
+      .header .header__info .header_text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 29px; }
+      .header .header__info a:link {
+        color: #ffffff; }
+      .header .header__info a:visited {
+        color: #ffffff; }
+  .title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: left; }
+  .text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify; }
+  .section-skills {
+    background: #fffaf2;
+    padding: 5% 10%; }
+    .section-skills .section-skills__block-overview {
+      display: flex;
+      justify-content: space-between; }
+      .section-skills .section-skills__block-overview .picture {
+        position: relative;
+        left: 0px;
+        width: 350px;
+        height: 340px; }
+      .section-skills .section-skills__block-overview .section-skills__overview {
+        display: flex;
+        justify-content: space-between;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        width: 45vw; }
+      .section-skills .section-skills__block-overview .skill-bar {
+        width: 29vw;
+        height: 3.3vh; }
+      .section-skills .section-skills__block-overview .section-skills_profile_gap {
+        margin-bottom: 50px; }
+      .section-skills .section-skills__block-overview .section-skills_profile1 {
+        line-height: 30px; }
+      .section-skills .section-skills__block-overview .section-skills__profile2 {
+        line-height: 30px; }
+  .section-portfolio__main-info {
+    display: flex;
+    justify-content: space-between; }
+    .section-portfolio__main-info .section-portfolio__text {
+      display: flex;
+      flex-flow: column;
+      align-items: flex-start;
+      width: 30vw; }
+    .section-portfolio__main-info .section-portfolio__images {
+      display: grid;
+      grid-template-columns: 20vw 20vw;
+      grid-template-rows: 20% 30%;
+      row-gap: 60px;
+      column-gap: 0px; }
+      .section-portfolio__main-info .section-portfolio__images .image_1 {
+        width: 16.2vw;
+        height: 11vh;
+        position: relative;
+        bottom: 0; }
+      .section-portfolio__main-info .section-portfolio__images .image_2 {
+        width: 16vw;
+        height: 11vh; }
+      .section-portfolio__main-info .section-portfolio__images .image_3 {
+        width: 16vw;
+        height: 11vh;
+        position: relative;
+        top: 40%; }
+      .section-portfolio__main-info .section-portfolio__images .image_4 {
+        position: relative;
+        top: 40%;
+        width: 16vw;
+        height: 11vh; }
+  .section-contacts__footer {
+    display: flex;
+    justify-content: space-between; }
+    .section-contacts__footer .section-contacts__social-media {
+      display: flex;
+      justify-content: space-between;
+      margin-right: 0;
+      width: 40vw; }
+    .section-contacts__footer .section-contacts__email-mob {
+      display: flex;
+      flex-flow: column;
+      justify-content: space-between; }
+      .section-contacts__footer .section-contacts__email-mob .arrow {
+        align-self: flex-end;
+        width: 24px;
+        height: 24px; } }

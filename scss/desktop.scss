@@ -1,0 +1,207 @@
+@media (min-width: 1024px) {
+  .header {
+    height: 768px;
+    .overlay {
+      height: 768px;
+    }
+
+    img {
+      display: none;
+      position: relative;
+      right: 100px;
+      top: 30px;
+    }
+
+    .header__logo {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 26px;
+      line-height: 29px;
+    }
+
+    .header__wraper {
+      display: block;
+      color: #ffffff;
+      position: relative;
+      z-index: 2;
+      height: 768px;
+      padding: 5% 10%;
+    }
+
+    .header__top {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .header__menu {
+      display: flex;
+      justify-content: space-between;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 22px;
+      width: 40vw;
+      a {
+        &:link {
+          color: #ffffff;
+          text-decoration: none;
+        }
+        &:visited {
+          color: #ffffff;
+          text-decoration: none;
+        }
+      }
+    }
+
+    .header__info {
+      margin-top: 200px;
+      display: flex;
+      flex-flow: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      height: 300px;
+      text-align: left;
+      .header__about {
+        display: flex;
+        flex-flow: column;
+        align-items: flex-start;
+      }
+      .header_title {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 64px;
+        line-height: 78px;
+      }
+      .header_text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 29px;
+      }
+      a {
+        &:link {
+          color: #ffffff;
+        }
+        &:visited {
+          color: #ffffff;
+        }
+      }
+    }
+  }
+  .title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: left;
+  }
+  .text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+  }
+
+  .section-skills {
+    background: #fffaf2;
+    padding: 5% 10%;
+
+    .section-skills__block-overview {
+      display: flex;
+      justify-content: space-between;
+      .picture {
+        position: relative;
+        left: 0px;
+        width: 350px;
+        height: 340px;
+      }
+      .section-skills__overview {
+        display: flex;
+        justify-content: space-between;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        width: 45vw;
+      }
+
+      .skill-bar {
+        width: 29vw;
+        height: 3.3vh;
+      }
+      .section-skills_profile_gap {
+        margin-bottom: 50px;
+      }
+      .section-skills_profile1 {
+        line-height: 30px;
+      }
+      .section-skills__profile2 {
+        line-height: 30px;
+      }
+    }
+  }
+
+  .section-portfolio__main-info {
+    display: flex;
+    justify-content: space-between;
+    .section-portfolio__text {
+      display: flex;
+      flex-flow: column;
+      align-items: flex-start;
+      width: 30vw;
+    }
+
+    .section-portfolio__images {
+      display: grid;
+      grid-template-columns: 20vw 20vw;
+      grid-template-rows: 20% 30%;
+      row-gap: 60px;
+      column-gap: 0px;
+      .image_1 {
+        width: 16.2vw;
+        height: 11vh;
+        position: relative;
+        bottom: 0;
+      }
+      .image_2 {
+        width: 16vw;
+        height: 11vh;
+      }
+      .image_3 {
+        width: 16vw;
+        height: 11vh;
+        position: relative;
+        top: 40%;
+      }
+      .image_4 {
+        position: relative;
+        top: 40%;
+        width: 16vw;
+        height: 11vh;
+      }
+    }
+  }
+
+  .section-contacts__footer {
+    display: flex;
+    justify-content: space-between;
+
+    .section-contacts__social-media {
+      display: flex;
+      justify-content: space-between;
+      margin-right: 0;
+      width: 40vw;
+    }
+    .section-contacts__email-mob {
+      display: flex;
+      flex-flow: column;
+      justify-content: space-between;
+      .arrow {
+        align-self: flex-end;
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+}
