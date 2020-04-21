@@ -113,7 +113,7 @@
       .picture {
         position: relative;
         left: 0px;
-        width: 350px;
+        width: 30vw;
         height: 340px;
       }
       .section-skills__overview {
@@ -127,17 +127,27 @@
       }
 
       .skill-bar {
-        width: 29vw;
-        height: 3.3vh;
+        width: 30vw;
+
+        .progress-bar {
+          width: 100%;
+          background-color: #f5d6ab;
+        }
+
+        .progress-bar-fill {
+          display: block;
+          height: 24px;
+          background-color: #c66c49;
+        }
       }
       .section-skills_profile_gap {
         margin-bottom: 50px;
       }
       .section-skills_profile1 {
-        line-height: 30px;
+        line-height: 29px;
       }
       .section-skills__profile2 {
-        line-height: 30px;
+        line-height: 33px;
       }
     }
   }

@@ -81,8 +81,14 @@
       font-size: 12px;
       line-height: 25px; }
       .section-skills .section-skills__overview .skill-bar {
-        width: 206px;
-        height: 18px; }
+        width: 50vw; }
+        .section-skills .section-skills__overview .skill-bar .progress-bar {
+          width: 100%;
+          background-color: #f5d6ab; }
+        .section-skills .section-skills__overview .skill-bar .progress-bar-fill {
+          display: block;
+          height: 24px;
+          background-color: #c66c49; }
   .section-portfolio {
     padding: 5% 10%; }
     .section-portfolio .section-portfolio__images {

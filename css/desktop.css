@@ -84,7 +84,7 @@
       .section-skills .section-skills__block-overview .picture {
         position: relative;
         left: 0px;
-        width: 350px;
+        width: 30vw;
         height: 340px; }
       .section-skills .section-skills__block-overview .section-skills__overview {
         display: flex;
@@ -95,14 +95,20 @@
         line-height: 25px;
         width: 45vw; }
       .section-skills .section-skills__block-overview .skill-bar {
-        width: 29vw;
-        height: 3.3vh; }
+        width: 30vw; }
+        .section-skills .section-skills__block-overview .skill-bar .progress-bar {
+          width: 100%;
+          background-color: #f5d6ab; }
+        .section-skills .section-skills__block-overview .skill-bar .progress-bar-fill {
+          display: block;
+          height: 24px;
+          background-color: #c66c49; }
       .section-skills .section-skills__block-overview .section-skills_profile_gap {
         margin-bottom: 50px; }
       .section-skills .section-skills__block-overview .section-skills_profile1 {
-        line-height: 30px; }
+        line-height: 29px; }
       .section-skills .section-skills__block-overview .section-skills__profile2 {
-        line-height: 30px; }
+        line-height: 33px; }
   .section-portfolio__main-info {
     display: flex;
     justify-content: space-between; }
